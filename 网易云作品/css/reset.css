@@ -1,0 +1,34 @@
+body,
+ul,
+li,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: '微软雅黑';
+}
+.margin11 {
+  margin-top: 0.25462963rem;
+}
+.list-headbox {
+  height: 5.27777778rem;
+}
+section {
+  padding-bottom: 3.40277778rem;
+}
+.floatR {
+  float: right;
+}
+.pb {
+  position: absolute;
+  bottom: 0;
+}
+.ptl {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
