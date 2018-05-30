@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+        </script>
+    <title>Document</title>
+
+    <!-- 首页内容相关样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- 导航条相关样式 -->
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <!-- 列表页相关样式 -->
+    <link rel="stylesheet" href="../css/list.css">
+
+    <!-- 详情页相关样式 -->
+    <link rel="stylesheet" href="../css/details.css">
+
+    <!-- 播放页相关样式 -->
+    <link rel="stylesheet" href="../css/playmusic.css">
+
+    <!-- 公共部分 -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- 工具类 -->
+    <link rel="stylesheet" href="../css/tools.css">
+
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="../css/reset.css">
+
+    <!-- 用户页相关样式 -->
+    <link rel="stylesheet" href="../css/user.css">
+    
+</head>
+<body>
+    <!-- 详情页头部 -->
+    <header class="index-head list-headbox">
+    <!-- 拖拽页面的高度小于228，className加上details-backRgba并且让下面img启用 -->
+        <div class="headbox list-headbox details-backRgba">
+            <nav class="base-nav">
+                <div class="base-backbox">
+                    <span class="base-back-text1">雪の華</span>
+                    <span class="base-back-text2">南條愛乃</span>
+                </div>
+                <div class="user-nav-menu"></div>
+            </nav>
+        </div>
+    </header>
+    <img src="../img/friend-pic/5.jpg" class="playmusic-background">
+    <section class="playmusic-content">
+        <div class="singing-arm-rgba"></div>
+        <img src="../img/play-pic/singing arm.png" class="singing-arm">
+        <div class="record-box">
+            <img src="../img/friend-pic/5.jpg" class="record-pic">
+        </div>
+        <ul class="playmusic-top-btn">
+            <li class="playmusic-top-btns"></li>
+            <li class="playmusic-top-btns"></li>
+            <li class="playmusic-top-btns"></li>
+            <li class="playmusic-top-btns"></li>
+        </ul>
+    </section>
+    <footer class="playmusic-bottom">
+        <div class="playmusic-line"></div>
+        <div class="playmusic-bottom-btn"></div>
+    </footer>
+</body>
+</html>

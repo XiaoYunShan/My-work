@@ -1,0 +1,83 @@
+.playmusic-background {
+  width: 25rem;
+  height: 44.44444444rem;
+  position: absolute;
+  top: 0;
+  -webkit-filter: blur(2.31481481rem);
+}
+.playmusic-content {
+  width: 25rem;
+  height: 30.83333333rem;
+  padding: 0;
+  background: red;
+  position: relative;
+  overflow: hidden;
+}
+.playmusic-content .singing-arm-rgba {
+  width: 1.62037037rem;
+  height: 1.62037037rem;
+  border-radius: 50%;
+  border: 0.27777778rem solid rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: -1.01851852rem;
+  left: 11.94444444rem;
+}
+.playmusic-content .singing-arm {
+  width: 5.6712963rem;
+  height: 8.21759259rem;
+  position: absolute;
+  top: 0;
+  left: 11.94444444rem;
+  z-index: 1;
+}
+.playmusic-content .record-box {
+  width: 18.14814815rem;
+  height: 18.14814815rem;
+  background: url(../img/play-pic/record.png) no-repeat;
+  background-size: 18.14814815rem 18.14814815rem;
+  margin-bottom: 4.72222222rem;
+  position: absolute;
+  top: 4.67592593rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.playmusic-content .record-box .record-pic {
+  width: 12.31481481rem;
+  height: 12.31481481rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.playmusic-content .playmusic-top-btn {
+  width: 25rem;
+  height: 3.28703704rem;
+  padding: 0 3.35648148rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.playmusic-content .playmusic-top-btn .playmusic-top-btns {
+  width: 3.47222222rem;
+  height: 3.28703704rem;
+  background: blue;
+}
+.playmusic-bottom {
+  width: 25rem;
+  height: 8.33333333rem;
+  background: orange;
+  position: relative;
+}
+.playmusic-bottom .playmusic-line {
+  height: 2.70833333rem;
+  background: yellow;
+}
+.playmusic-bottom .playmusic-btns {
+  height: 5.625rem;
+}

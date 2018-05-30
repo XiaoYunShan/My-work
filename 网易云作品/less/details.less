@@ -102,9 +102,11 @@
     .details-bottom-content{
         width: 1080/@rem;
         position: relative;
+        z-index: 1;
+        //全部播放与收藏
         .playAndCollection{
             width: 1080/@rem;
-            height: 134/@rem;
+            height: 137/@rem;
             border-radius: 30/@rem 30/@rem 0 0;
             background: #fff url(../img/details-pic/5.png) no-repeat 45/@rem 36/@rem;
             background-size: 60/@rem 60/@rem;
@@ -130,8 +132,51 @@
                 color: #fff;
                 float: right;
             }
-            
-            
+        }
+        //音乐列表
+        .details-item-music{
+            width: 1080/@rem;
+            height: 160/@rem;
+            border-top: 2/@rem solid #eeeff1;
+            .details-item-num{
+                width: 150/@rem;
+                height: 160/@rem;
+                font-size: 36/@rem;
+                line-height: 160/@rem;
+                text-align: center;
+                color: #9b9c9e;
+                float: left;
+            }
+            .details-item-musicNameAndNickName{
+                width: 800/@rem;
+                height: 160/@rem;
+                padding-top: 23/@rem;
+                padding-bottom: 16/@rem;
+                box-sizing: border-box;
+                float: left;
+                .details-item-musicName{
+                    font-size: 44/@rem;
+                    line-height: 66/@rem;
+                    display: block;
+                }
+                .details-item-NickName{
+                    font-size: 34/@rem;
+                    line-height: 56/@rem;
+                    color: #9b9c9e;
+                    display: block;
+                    .SQ-icon{
+                        width: 36/@rem;
+                        height: 24/@rem;
+                    }
+                }
+            }
+            .details-item-options{
+                width: 130/@rem;
+                height: 160/@rem;
+                background: url(../img/list-pic/1-7.png) no-repeat 53/@rem 60/@rem;
+                background-size: 10/@rem 46/@rem; 
+                float: right;
+            }
         }
     }
 }

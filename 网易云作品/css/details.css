@@ -95,10 +95,11 @@
 .details-section .details-bottom-content {
   width: 25rem;
   position: relative;
+  z-index: 1;
 }
 .details-section .details-bottom-content .playAndCollection {
   width: 25rem;
-  height: 3.10185185rem;
+  height: 3.1712963rem;
   border-radius: 0.69444444rem 0.69444444rem 0 0;
   background: #ffffff url(../img/details-pic/5.png) no-repeat 1.04166667rem 0.83333333rem;
   background-size: 1.38888889rem 1.38888889rem;
@@ -123,5 +124,49 @@
   border-radius: 0 0.69444444rem 0 0;
   background: #d63c34;
   color: #fff;
+  float: right;
+}
+.details-section .details-bottom-content .details-item-music {
+  width: 25rem;
+  height: 3.7037037rem;
+  border-top: 0.0462963rem solid #eeeff1;
+}
+.details-section .details-bottom-content .details-item-music .details-item-num {
+  width: 3.47222222rem;
+  height: 3.7037037rem;
+  font-size: 0.83333333rem;
+  line-height: 3.7037037rem;
+  text-align: center;
+  color: #9b9c9e;
+  float: left;
+}
+.details-section .details-bottom-content .details-item-music .details-item-musicNameAndNickName {
+  width: 18.51851852rem;
+  height: 3.7037037rem;
+  padding-top: 0.53240741rem;
+  padding-bottom: 0.37037037rem;
+  box-sizing: border-box;
+  float: left;
+}
+.details-section .details-bottom-content .details-item-music .details-item-musicNameAndNickName .details-item-musicName {
+  font-size: 1.01851852rem;
+  line-height: 1.52777778rem;
+  display: block;
+}
+.details-section .details-bottom-content .details-item-music .details-item-musicNameAndNickName .details-item-NickName {
+  font-size: 0.78703704rem;
+  line-height: 1.2962963rem;
+  color: #9b9c9e;
+  display: block;
+}
+.details-section .details-bottom-content .details-item-music .details-item-musicNameAndNickName .details-item-NickName .SQ-icon {
+  width: 0.83333333rem;
+  height: 0.55555556rem;
+}
+.details-section .details-bottom-content .details-item-music .details-item-options {
+  width: 3.00925926rem;
+  height: 3.7037037rem;
+  background: url(../img/list-pic/1-7.png) no-repeat 1.22685185rem 1.38888889rem;
+  background-size: 0.23148148rem 1.06481481rem;
   float: right;
 }

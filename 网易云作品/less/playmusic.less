@@ -1,0 +1,88 @@
+@rem:43.2rem;
+
+.playmusic-background{
+    width: 1080/@rem;
+    height: 1920/@rem;
+    position: absolute;
+    top: 0;
+    -webkit-filter: blur(100/@rem);
+}
+.playmusic-content{
+    width: 1080/@rem;
+    height: 1332/@rem;
+    padding: 0;
+    background: red;
+    position: relative;
+    overflow: hidden;
+    // 唱臂位置
+    .singing-arm-rgba{
+        width: 70/@rem;
+        height: 70/@rem;
+        border-radius: 50%;
+        border:12/@rem solid rgba(0, 0, 0, .4);
+        position: absolute;
+        top: -44/@rem;
+        left: 516/@rem;
+    }
+    .singing-arm{
+        width: 245/@rem;
+        height: 355/@rem;
+        position: absolute;
+        top: 0;
+        left: 516/@rem;
+        z-index: 1;
+    }
+    .record-box{
+        width: 784/@rem;
+        height: 784/@rem;
+        background: url(../img/play-pic/record.png) no-repeat;
+        background-size: 784/@rem 784/@rem;
+        margin-bottom:204/@rem; 
+        position: absolute;
+        top: 202/@rem;
+        left: 0;
+        right: 0;
+        margin:auto;
+        .record-pic{
+            width: 532/@rem;
+            height: 532/@rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+    .playmusic-top-btn{
+        width: 1080/@rem;
+        height: 142/@rem;
+        padding: 0 145/@rem;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        .playmusic-top-btns{
+            width: 150/@rem;
+            height: 142/@rem;
+            background: blue;
+            
+        }
+    }
+}
+.playmusic-bottom{
+    width: 1080/@rem;
+    height: 360/@rem;
+    background: orange;
+    position: relative;
+
+    .playmusic-line{
+        height: 117/@rem;
+        background: yellow;
+    }
+    .playmusic-btns{
+        height: 243/@rem;
+    }
+}

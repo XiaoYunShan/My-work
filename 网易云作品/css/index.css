@@ -1,14 +1,13 @@
 .index-head {
   width: 25rem;
-  height: 7.91666667rem;
+  height: 8.33333333rem;
   padding-top: 0.02314815rem;
   box-sizing: border-box;
   position: relative;
 }
 .LB-BOX {
-  height: 7.5rem;
+  height: 7.08333333rem;
   background: #e0433a;
-  padding-top: 0.41666667rem;
 }
 .LB-BOX .lb-pic {
   width: 25rem;
@@ -53,12 +52,13 @@
   font-size: 0;
   margin-top: 3.33333333rem;
   margin-bottom: 0.6712963rem;
+  display: flex;
+  justify-content: space-around;
 }
 .content-nav .contentNav {
   width: 3.37962963rem;
   height: 5.30092593rem;
   display: inline-block;
-  margin: 0 1.43518519rem;
   position: relative;
 }
 .content-nav .contentNav .CN-font {
